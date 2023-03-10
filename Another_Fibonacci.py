@@ -1,6 +1,7 @@
 """
 Author: Fadi Hassoun - North Wales Management School, Wrexham Glyndŵr University.
 
+
 Description: A recursive code to calculate the nth term in the Fibonacci sequence. The code accepts a positive
 integer as an input from the user, and outputs the nth term of the sequence. It is assumed that the sequence starts
 with F(1), i.e: 1, 1, 2, 3, 5, 8, 13, 21… .
