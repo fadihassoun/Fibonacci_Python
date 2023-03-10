@@ -10,7 +10,7 @@ The second statement has recursive calls in the return statement, which makes it
 An iterative solution, on the other hand, will include a loop of n times adding the result of (n-1) and (n-2) to the result. The big-O notation for the complexity of the iterative option is therefore O(n) i.e. Linear and would be considerably faster for bigger values.
 
 The “fibonacci_caching” function
-Alternatively, if caching is used as discussed in chapter 5.12 of the textbook to store the results of function calls in a dictionary, then the stored values can be retrieved rather than recalculated when branching down calls. As each function call will only be made once, there will be almost n calls for an input n. The complexity representation of this function will therefore be linear with an order of magnitude of O(n). This solution is represented in the fibonacci_caching function in the code and is much more efficient that the first function.
+Alternatively, if caching is used to store the results of function calls in a dictionary, then the stored values can be retrieved rather than recalculated when branching down calls. As each function call will only be made once, there will be almost n calls for an input n. The complexity representation of this function will therefore be linear with an order of magnitude of O(n). This solution is represented in the fibonacci_caching function in the code and is much more efficient that the first function.
 For comparison, for an input of n=40, the recorded times during writing this code are shown in the snapshot below:
  
 
