@@ -1,3 +1,6 @@
+Python implementation of the Fibonacci sequence, which is a sequence in which each number is the sum of the two preceding ones.
+
+
 The script has recursive functions that calculate the value of the nth term in the Fibonacci sequence where n is the user input. The three laws of recursion are established as follows:
 -	Base case: if n <=2, then result = 1
 -	Moving towards the base case: f(n-1) and f(n-2).
